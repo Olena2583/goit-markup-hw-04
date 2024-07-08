@@ -125,6 +125,17 @@ main {
   padding-top: 188px;
   padding-bottom: 188px;
   background: var(--navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office/people-office.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .title-hero {
@@ -134,8 +145,7 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .btn {
