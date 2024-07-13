@@ -222,10 +222,22 @@ main {
   overflow: hidden;
 }
 
+.pic {
+  display: flex;
+  margin-top: 116px;
+  gap: 24px;
+}
+
+.thumb {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+}
 .section-one {
   display: flex;
   gap: 24px;
-  margin-top: 120px;
   margin-bottom: 120px;
 }
 
