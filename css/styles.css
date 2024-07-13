@@ -310,6 +310,20 @@ main {
   padding-top: 8px;
   text-align: center;
 }
+.team-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.team-icons-social {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: #4d5ae5;
+}
+
+.social-team {
+}
 
 /* portfolio */
 
