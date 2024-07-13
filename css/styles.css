@@ -223,7 +223,6 @@ main {
 }
 
 .pic {
-  width: ;
   display: flex;
   margin-top: 116px;
   gap: 24px;
@@ -270,9 +269,6 @@ main {
   background-color: #f4f4fd;
 }
 
-.main-team {
-}
-
 .title-team {
   font-size: 36px;
   line-height: 1.11111;
@@ -293,11 +289,6 @@ main {
   background-color: #fff;
 }
 
-.surname-team {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
 .subject-team {
   font-weight: 500;
   font-size: 20px;
@@ -308,7 +299,7 @@ main {
 }
 .text-team {
   letter-spacing: 0.02em;
-  padding-top: 8px;
+  padding: 8px 0;
   text-align: center;
 }
 
