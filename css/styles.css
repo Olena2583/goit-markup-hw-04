@@ -336,6 +336,14 @@ main {
   justify-content: center;
 }
 
+.team-link:hover,
+.team-link:focus {
+  background-color: #404bbf;
+}
+.social-team {
+  fill: #f4f4fd;
+}
+
 /* portfolio */
 
 .portfolio {
