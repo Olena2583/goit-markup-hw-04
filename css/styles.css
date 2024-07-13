@@ -240,16 +240,17 @@ main {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  width: 264px;
+  max-width: 264px;
+  padding: 24px 100px;
 }
 
-.one-icon {
-  position: absolute;
-}
 .section-one {
   display: flex;
   gap: 24px;
   margin-bottom: 120px;
+}
+.list-section-one {
+  max-width: 264px;
 }
 
 .title-section-one {
