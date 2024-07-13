@@ -277,6 +277,7 @@ main {
   color: var(--navy-blue);
   margin-bottom: 72px;
 }
+
 .list-team {
   display: flex;
   gap: 24px;
@@ -306,18 +307,20 @@ main {
   padding-top: 8px;
   text-align: center;
 }
+
+.team-icons-social {
+  display: flex;
+}
+.team-item-social {
+  width: 40px;
+  height: 40px;
+  gap: 24px;
+}
+
 .team-icons {
   display: flex;
   justify-content: center;
 }
-
-.team-icons-social {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  fill: #4d5ae5;
-}
-
 .social-team {
 }
 
