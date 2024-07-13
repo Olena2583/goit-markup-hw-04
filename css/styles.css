@@ -222,18 +222,24 @@ main {
   overflow: hidden;
 }
 
-.pic {
+.one-icon-thumb {
   display: flex;
-  margin-top: 116px;
-  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
+.pic {
 }
 
 .thumb {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
+}
+
+.one-icon {
 }
 .section-one {
   display: flex;
@@ -247,7 +253,6 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-bottom: 8px;
 }
 .text-section-one {
   letter-spacing: 0.02em;
