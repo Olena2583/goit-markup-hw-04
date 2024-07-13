@@ -390,7 +390,11 @@ main {
   padding-bottom: 100px;
   background: var(--navy-blue);
 }
-
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer-logo {
   font-size: 18px;
   line-height: 1.17;
@@ -402,8 +406,38 @@ main {
   color: var(--cloud);
 }
 .footer-tex {
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--cloud);
   padding-top: 16px;
   width: 264px;
+}
+
+.footer-social-media {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-icons-social {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-item-social {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
