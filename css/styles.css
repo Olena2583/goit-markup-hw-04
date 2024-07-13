@@ -222,28 +222,24 @@ main {
   overflow: hidden;
 }
 
-.one-icon-thumb {
-}
-
 .pic {
-  width: 100%;
-  margin-top: 116px;
+  width: ;
   display: flex;
+  margin-top: 116px;
   gap: 24px;
 }
 
-.thumb {
+.one-icon-thumb {
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
+  width: 264px;
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  max-width: 264px;
-  padding: 24px 100px;
 }
-
 .section-one {
   display: flex;
   gap: 24px;
