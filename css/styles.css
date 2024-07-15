@@ -315,8 +315,8 @@ main {
 }
 
 .team-icons-social {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .team-item-social {
