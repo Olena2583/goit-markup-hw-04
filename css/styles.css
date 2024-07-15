@@ -440,9 +440,7 @@ main {
 .footor-logo {
   margin-right: 120px;
 }
-.footer-link {
-  display: flex;
-  align-items: baseline;
+.footer-logo-link {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
