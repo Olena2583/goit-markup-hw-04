@@ -439,6 +439,8 @@ main {
 }
 .footor-logo {
   margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo-link {
   font-size: 18px;
@@ -465,6 +467,7 @@ main {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #fff;
+  line-height: 1.5;
 }
 
 .footer-icons-social {
