@@ -462,6 +462,11 @@ main {
   width: 264px;
 }
 
+.footer-social {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-social-media {
   font-size: 16px;
   font-weight: 500;
