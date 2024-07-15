@@ -307,11 +307,16 @@ main {
 
 .team-icons {
   padding: 32px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .team-icons-social {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   gap: 24px;
 }
 .team-item-social {
