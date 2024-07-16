@@ -434,7 +434,6 @@ main {
 }
 .footer-logo {
   display: flex;
-  margin-right: 120px;
   align-items: baseline;
 }
 
@@ -454,9 +453,6 @@ main {
   color: #fff;
   line-height: 1.5;
   margin-bottom: 16px;
-}
-
-.footer-icon {
 }
 
 .footer-logo-link {
