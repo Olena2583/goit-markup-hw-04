@@ -255,7 +255,6 @@ main {
 .section-one {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 .list-section-one {
   max-width: 264px;
@@ -416,7 +415,7 @@ main {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-top: none;
-  margin: 32px 16px;
+  padding: 32px 16px;
   background: #fff;
 }
 
@@ -425,7 +424,7 @@ main {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .text-portfolio {
   letter-spacing: 0.02em;
