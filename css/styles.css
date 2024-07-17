@@ -300,6 +300,7 @@ main {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .subject-team {
   font-weight: 500;
